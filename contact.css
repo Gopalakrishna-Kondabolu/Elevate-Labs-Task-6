@@ -1,0 +1,48 @@
+body{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("pexels-life-of-pix-7919.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+}
+#username{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#Email{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#message{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#button{
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
